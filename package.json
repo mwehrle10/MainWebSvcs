@@ -1,0 +1,19 @@
+{
+  "name": "express-s1",
+  "version": "1.0.0",
+  "description": "Test Site to learn NodeJS with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwehrle10/Express-S1.git"
+  },
+  "author": "MW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwehrle10/Express-S1/issues"
+  },
+  "homepage": "https://github.com/mwehrle10/Express-S1#readme"
+}

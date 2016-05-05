@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="/lib/jquery/jquery.min.js"></script>
+    
+    <title>Power Tel</title>
+    <meta charset="utf-8" />
+    <link href="/css/kendo-ui-core-2016.1.412.css" rel="stylesheet" />
+    
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/alpaca157.css" rel="stylesheet" />
+</head>
+<body id="powertel">
+
+    <section data-role="layout" data-id="blank"></section>  
+    
+
+    <section data-role="layout" data-id="main">
+        <div data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+    </section>
+
+    <section data-role="layout" data-id="tabs">
+        <div data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <div data-role="tabstrip">
+                <a href="/views/home.html" data-icon="home">Apps</a>
+                <a href="/views/log.html" data-icon="bookmarks">Log</a>
+                <a href="/views/settings.html" data-icon="settings">Settings</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- APP Namespace -->
+    <script>this.pt = {};</script>
+ 
+    <!-- Third party components -->
+    <script src="/lib/kendo/kendo-ui-core-2016.1.412.js"></script>   
+    <script src="/lib/alpaca/alpaca_1_5_17.min.js"></script>
+
+    <!-- Application references -->
+    <script src="/js/app.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/home.js"></script>
+    
+</body>
+</html>
